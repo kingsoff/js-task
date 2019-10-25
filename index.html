@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home task</title>
+    <style>
+        .btn {
+            border: none;
+            outline: none;
+            padding: 10px 16px;
+            color: aqua;
+            background-color: #f1f1f1;
+            cursor: pointer;
+        }
+
+        .active, .btn:hover {
+            background-color: #666;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<h2>First Task</h2>
+<blockquote>Написать функцию, которая по клику на кнопку "Start", будет выводить в &lt;span&gt; элемент текущую дату и
+    время
+    с ежесекундным обновлением. При клике на кнопку "Stop" обновление должно прекратиться. После клика на любую из
+    кнопок ей должен добавляться класс "active" и убираться с остальных. (3 балла)
+</blockquote>
+<h2>Result:</h2>
+<div id="menu">
+    <span id="date"></span>
+    <br/>
+    <button type="button" class="start-btn btn">Start</button>
+    <button type="button" class="stop-btn btn">Stop</button>
+</div>
+<script src="script.js" type="text/javascript"></script>
+<br/>
+        <hr>
+<h2>Second task</h2>
+<blockquote>Написать функцию для сложения двух чисел, которая будет вызываться в формате sum(1)(2);
+</blockquote>
+
+<h2>Result:</h2>
+<form>
+    <input id="a" type="text" value="1"><br>
+    <input id="b" type="text" value="1"><br>
+    <input type="button" value="Сумма двух чисел" onclick="addition();"><br>
+</form>
+<div id="result"></div>
+<script src="scriptTwo.js" type="text/javascript"></script>
+
+<br/>
+<hr>
+<h2>Third task</h2>
+<blockquote>Написать функцию, которая принимает массив чисел в качестве параметра и отфильтрует массив, оставив только
+    парные числа и сделает подсчет суммы этих чисел
+</blockquote>
+
+<h2>Result:</h2> in console
+<script src="scriptThird.js" type="text/javascript"></script>
+
+<br/>
+<hr>
+<h2>Fourth task</h2>
+<blockquote>Написать функцию, которая принимает массив чисел в качестве параметра и выводит каждое число этого массива
+    по порядку с задержкой в 3 секунды.
+</blockquote>
+
+<h2>Result:</h2> in console
+
+<script src="scriptFourth.js" type="text/javascript"></script>
+<br/>
+<hr>
+<h2>Fifth task</h2>
+<blockquote>Написать функцию подсчета кол-ва анаграмм в тексте. Анаграмма - это слова состоящие из одинаковых букв,
+    например сон - нос, лепесток - телескоп.
+</blockquote>
+
+<h2>Result:</h2> in console
+<script src="scriptFifth.js" type="text/javascript"></script>
+<br/>
+</body>
+</html>
